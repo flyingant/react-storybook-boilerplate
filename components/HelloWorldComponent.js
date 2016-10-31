@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react';
 export default function HelloWorldComponent(props) {
     return (
         <div>
-            Hello World, {props.message}
+            Hello World!! {props.message}
         </div>
     );
 }
