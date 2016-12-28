@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "react storybook boilerplate",
   "scripts": {
-    "storybook": "start-storybook -p 9001"
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "dependencies": {
     "react": "^15.3.2",
@@ -11,7 +11,6 @@
   },
   "devDependencies": {
     "@kadira/storybook": "^1.1.0",
-
     "babel-core": "^6.18.0",
     "babel-eslint": "^7.1.0",
     "babel-loader": "^6.2.7",
